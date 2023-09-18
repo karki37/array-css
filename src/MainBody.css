@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.mainBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 4rem;
+}
+.team {
+  color: red;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.header {
+  color: black;
+}
+html,
+body {
+  height: 100%;
+  background-color: bisque;
+}
